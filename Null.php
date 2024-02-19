@@ -4,13 +4,13 @@ $name = "Diqi";
 $name = null;
 // $name = "Diqi";
 
-echo $name;
-echo is_null($name);
+// echo $name;
+// echo is_null($name);
 
 $contoh = "diqi";
 unset($contoh);
 $contoh = "Farah";
 
-echo isset($contoh);
+var_dump(isset($contoh)) ;
 
 
