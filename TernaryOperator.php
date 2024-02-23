@@ -1,6 +1,6 @@
 <?php
 
-$gender = "Sis";
+$gender = "Bro";
 
 $hi = $gender == "Pria" ? "Hi Bro":"Hi Sis";
 
