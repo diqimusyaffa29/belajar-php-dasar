@@ -3,5 +3,5 @@
 $gender = "Bro";
 
 $hi = $gender == "Pria" ? "Hi Bro":"Hi Sis";
-
+$hi = $gender == "Pria" ? "Hi Bro":"Hi Sis";
 echo $hi. PHP_EOL;
