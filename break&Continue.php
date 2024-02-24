@@ -15,9 +15,15 @@ $counter = 1;
 
 
 // Implementation of Continue
-for($counter; $counter <= 100; $counter++){
-    if($counter % 2 == 0) {
-        continue;
+function oddNumber ($number) {
+    $counter = 1;
+    for($counter; $counter <= $number; $counter++){
+        if($counter % 2 == 0) {
+            continue; //jika kondisi terpenuhi, maka akan langsung masuk ke dalam post statement
+        }
+        echo "Angka yang habis di bagi 2 : $counter". PHP_EOL; //akan skipp angka yang habis di bagi 2
     }
-    echo "Angka yang tidak habis di bagi 2 : $counter". PHP_EOL;
 }
+$number = 50;
+oddNumber($number);
+
