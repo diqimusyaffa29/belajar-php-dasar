@@ -25,5 +25,6 @@ function oddNumber ($number) {
     }
 }
 $number = 50;
+$number = 100;
 oddNumber($number);
 
