@@ -14,4 +14,13 @@ if ($buat){
         echo "hi" .PHP_EOL;
     }
 }
-hi();
+//hi();
+
+
+
+function sayName($name){
+    echo "Hellooo $name".PHP_EOL;
+}
+
+sayName("Diqi");
+sayName("Musyaffa'");
